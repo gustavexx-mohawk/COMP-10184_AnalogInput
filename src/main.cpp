@@ -11,14 +11,14 @@ void setup() {
 
 // function to convert digital input signal 
 // to analog representation (modeling voltage)
-float digitalToAnalogConverterVoltage(int digitalValue) {
-  return (3.3/1023) * digitalValue;
+float digitalToAnalogConverterVoltage(int analogValue) {
+  return (3.3/1023) * analogValue;
 }
 
 // function to convert digital input signal 
 // to analog representation (modeling temperature)
-float digitalToAnalogConverterTemperature(int digitalValue) {
-  return (50.0/1023) * digitalValue;
+float digitalToAnalogConverterTemperature(int analogValue) {
+  return (50.0/1023) * analogValue;
 }
 
 void loop() {
